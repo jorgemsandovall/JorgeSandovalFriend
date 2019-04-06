@@ -4,7 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace MVC.Models
+namespace API.Models
 {
     public class DataContext:DbContext 
     {
@@ -13,6 +13,6 @@ namespace MVC.Models
 
         }
 
-        public System.Data.Entity.DbSet<MVC.Models.JorgeSandovalFriend> JorgeSandovalFriends { get; set; }
+        
     }
 }
